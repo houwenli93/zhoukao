@@ -1,0 +1,167 @@
+body{
+	top:0;
+	bottom:0;
+	width:100%;
+	background:#eee;
+	position:absolute;
+	display:-webkit-flex;
+	-webkit-flex-direction:column;
+}
+.header{
+	height:.45rem;
+	background:#fff;
+	display:-webkit-flex;
+	text-align:center;
+	align-items:center;
+	position:relation;
+	font-size:18px;
+	.head-title{
+	 position:absolute;
+	 left:45%;
+	 ul{
+	  display:-webkit-flex;
+	  color:#333;
+	  .first{
+	   color:#fc062e;
+	   border-bottom:2px solid #fc062e;
+	  }
+	  li{
+	   -webkit-flex:1;
+	   margin-right:15px;
+	   line-height:.45rem;
+	  }
+	  li:hover{
+	   color:#fc062e;
+	   border-bottom:2px solid #fc062e;
+	  }
+	 }
+	}
+	.head-right{
+	 position:absolute;
+	 right:10px;
+	 color:#ccc;
+	}
+}
+.content{
+	-webkit-flex:1;
+	overflow-y:auto;
+	.box-nav{
+	 margin:.1rem .15rem;
+	 background:#fff;
+	 ul{
+	  display:-webkit-flex;
+	  text-align:center;
+	  .nav-fist{
+       background:#fe4d4d;
+       color:#fff;
+	  }
+	  li{
+	   -webkit-flex:1;
+	   padding:.08rem;
+	   border:1px solid #ccc;
+	  }
+	  li:hover{
+	   background:#fe4d4d;
+       color:#fff;
+	  }
+	 }
+	}
+	.box-list{
+	 background:#fff;
+	 padding:.1rem;
+	 
+	 text-align:center;
+	 border-bottom:1px solid #eee;
+	 #scoller{
+	 display:-webkit-flex;
+	 }
+	 ul{
+	  display:-webkit-flex;
+	  text-align:center;
+	  li{
+	   -webkit-flex-grow:1;
+	  
+	   padding-left:.12rem;
+	   padding-right:.12rem;
+	   border-right:1px solid #eee;
+	  }
+	 }
+	 i{
+	  margin-left:20px;
+	 }
+	}
+	.box-main{
+	 background:#fff;
+	 padding:.1rem;
+	 position:relation;
+	 i{
+	  color:#ccc;
+	 }
+	 b{
+	  color:#666;
+	 }
+	 span{
+	  color:#5ac45d;
+	  border:2px solid #5ac45d;
+	  padding:.03rem;
+	  border-radius:15px;
+	  position:absolute;
+	  right:10px;
+	 }
+	}
+	.main-bottom{
+	 background:#fff;
+	 display:-webkit-flex;
+	 padding-top:.16rem;
+	 padding-bottom:.15rem;
+	 text-align:center;
+	 ul{
+	  display:-webkit-flex;
+	  text-align:cenetr;
+	  font-size:14px;
+	  li{
+	   -webkit-flex-grow:1;
+	   padding:.01rem;
+	   border-sizing:border-box;
+	   border-right:1px solid #eee;
+	   .look{
+	    color:#1aa4ed;
+	   }
+
+	   label{
+	   #one{
+	    color:#ffa71d;
+	   }
+	   }
+	   p{
+	    color:#ccc;
+	    margin-top:10px;
+	   }
+	  }
+	  .last{
+	   border-right:none;
+	  }
+	 }
+	}
+}
+.footer{
+	height:.45rem;
+	background:#fff;
+	border-top:1px solid #eee;
+	ul{
+	display:-webkit-flex;
+	text-align:center;
+	li{
+	 -webkit-flex:1;
+	 p{
+	  font-size:14px;
+	 }
+	}
+	.two{
+	 color:#fa3d3d;
+	}
+	li:hover{
+	 color:#fa3d3d;
+	}
+	}
+}
